@@ -1,3 +1,7 @@
+/*function returns an array of objects. Installed uuid to generate a random id; so that each song 
+can have a unique id. Manually extracted data from chillhop site. Array of colors will be used for 
+the input slider. */
+
 import {v4 as uuidv4} from 'uuid'
 
 function chillHop() {
@@ -7,7 +11,7 @@ function chillHop() {
             artist: 'goosetaf, xander., Anbuu ',
             cover: 'https://chillhop.com/wp-content/uploads/2020/10/0e5bb63f838ff92eeac142aae944e9f678df13c9-1024x1024.jpg',
             id: uuidv4(),
-            active: true,
+            active: true, 
             color: ['#dcafc3', '#8e7a81'],
             audio: 'https://mp3.chillhop.com/serve.php/?mp3=10313'
 
@@ -81,10 +85,6 @@ function chillHop() {
             audio: 'https://mp3.chillhop.com/serve.php/?mp3=10023'
 
         },
-        
-        
-        
-        
     ]
 }
 

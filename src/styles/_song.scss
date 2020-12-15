@@ -1,3 +1,6 @@
+
+
+/*flexing the aligning the pic, song name and artist. formats cover image to circle */
 .song-container{
     min-height: 60vh;
     display: flex;
@@ -9,7 +12,7 @@
         border-radius: 50%;
     }
     h2{
-        padding: 3rem 1rem 1rem 1rem;
+        padding: 3rem 1rem 1rem 1rem; //top, right, bottom, left
     }
     h3{
         font-size: 1rem;

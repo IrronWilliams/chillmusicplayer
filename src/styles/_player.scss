@@ -1,3 +1,6 @@
+
+
+/*flexing the play, pause buttons */
 .player{
     min-height: 20vh;
     display: flex;
@@ -6,6 +9,7 @@
     justify-content: space-between;
 }
 
+/*working on timer. input allows for selecting slider w/o clicking on it directly */
 .time-control{
     width: 50%;
     display: flex;
@@ -20,6 +24,7 @@
     }
 }
 
+/*adding space between buttons. selecting svg icons and adding pointer to appear clickable */
 .play-control{
     display: flex;
     justify-content: space-between;

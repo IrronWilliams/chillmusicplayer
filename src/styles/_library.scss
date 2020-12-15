@@ -1,3 +1,5 @@
+/*transform translate pushes the library over on the x axis. otherwise, w/o transform the navbar will not be visible because under 
+the library. adding transition on the library.   */
 .library{
     position: fixed;
     top: 0;
@@ -14,17 +16,17 @@
     }
    
 }
-
+/*flexing and controlling size of image*/
 .library-song{
     display: flex;
     align-items: center;
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 2rem 1rem 2rem; //top, right, bottom, left
     cursor: pointer;
     img{
         width: 30%;
     }
     &:hover{
-        background: rgb(209, 232, 235);
+        background: rgb(209, 232, 235);  //adds hovering affect. when point to song, highlights song
     }
 }
 
@@ -40,10 +42,10 @@
 
 //code does not work with Chrome
 *{
-    scrollbar-width: thin;
+    scrollbar-width: thin;  //controls width of scrollbar
     scrollbar-color: blue;
 }
-//this works with Chrome
+//this works with Chrome. code styles the scrollbar
 *::-webkit-scrollbar{
     width: 5px;
 }
@@ -56,10 +58,12 @@
     border: transparent;
 }
 
+//changes color of song when clicked
 .selected {
     background: rgb(179, 219, 241);
 }
 
+//
 .active-library{
     transform: translateX(0%);
     opacity: 1;
